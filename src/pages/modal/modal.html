@@ -1,0 +1,29 @@
+<!--
+  Generated template for the ModalPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="dark">
+    <ion-title>{{ serie.nombre }}</ion-title>
+	<ion-buttons end>
+	<button ion-button (click)="closeModal()">Close</button>
+	</ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+		<br>
+<ion-content padding style="background-image: url('https://i.pinimg.com/originals/94/e9/dd/94e9dd53e6bb0670e2594c4299876afb.jpg')">
+  <div id="caja">
+		<b>
+Temporadas: {{ serie.temporadas }} <br>
+Género: {{ serie.genero }} <br>
+Cadena original: {{ serie.cadena }}<br>
+</b>
+</div>
+<br>
+<div id="imagen"><img src= "{{ serie.imagen }}"/></div>
+
+</ion-content>

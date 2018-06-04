@@ -1,0 +1,17 @@
+page-modal {
+	ion-content {
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		font-size: 24px;
+		font-family: serif;
+	}
+	#caja {
+		border: 2px solid red;
+		border-radius: 25px;
+		padding: 20px;
+		background: rgba(86, 244, 66, 0.7);
+	}
+	#fondo{
+		background-size: 200px, 200px;
+	}	
+}
